@@ -1,0 +1,28 @@
+RECEIVER :: DEBUG – Received response with trace id 8078cd4e-aff4-422a-9f32-ca1825abc88d, status code 201
+RECEIVER :: DEBUG – Received response with trace id 3615c071-d800-4783-8647-5d7e091084a4, status code 201
+RECEIVER :: DEBUG – Received response with trace id 6e056b71-d85c-4169-af6b-2d9dcaa52a03, status code 201
+RECEIVER :: DEBUG – Received event buy with trace id be1d74c5-0d7c-4259-920c-a052a6d6f6d9
+RECEIVER :: DEBUG – Received response with trace id be1d74c5-0d7c-4259-920c-a052a6d6f6d9, status code 201
+RECEIVER :: DEBUG – Received event buy with trace id 70183421-e3d2-4687-953b-982464294bf0
+RECEIVER :: DEBUG – Received response with trace id 70183421-e3d2-4687-953b-982464294bf0, status code 201
+RECEIVER :: DEBUG – Received event buy with trace id 44dd465e-7d2e-489c-b19d-0745394b593a
+RECEIVER :: DEBUG – Received response with trace id 44dd465e-7d2e-489c-b19d-0745394b593a, status code 201
+RECEIVER :: DEBUG – Received event sell with trace id 923b2acc-0aac-4635-adfa-37f1d142df64
+RECEIVER :: DEBUG – Received response with trace id 923b2acc-0aac-4635-adfa-37f1d142df64, status code 201
+RECEIVER :: DEBUG – Received event buy with trace id 6e9596a4-c13f-4fa6-8af8-8a2541d6db88
+RECEIVER :: DEBUG – Received response with trace id 6e9596a4-c13f-4fa6-8af8-8a2541d6db88, status code 201
+RECEIVER :: DEBUG – Received event sell with trace id b8d2db0f-9f8f-49af-adb8-bd36f898eae6
+RECEIVER :: DEBUG – Received response with trace id b8d2db0f-9f8f-49af-adb8-bd36f898eae6, status code 201
+RECEIVER :: DEBUG – Received sell event with trace id 0a2dca81-050d-4075-bd18-0c5c1789b96f
+RECEIVER :: DEBUG – Received sell event with trace id c8350dbf-4132-48f1-b6c4-74505edd2428
+RECEIVER :: DEBUG – PRODUCER::producing {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'toy', 'item_price': 9.0, 'sell_qty': 1, 'trace_id': 'c8350dbf-4132-48f1-b6c4-74505edd2428'} event
+RECEIVER :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23 18:05:57', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'toy', 'item_price': 9.0, 'sell_qty': 1, 'trace_id': 'c8350dbf-4132-48f1-b6c4-74505edd2428'}}
+RECEIVER :: DEBUG – Received sell event with trace id 89382c33-c65d-4fbb-845d-b53347300a66
+RECEIVER :: DEBUG – PRODUCER::producing {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'toy', 'item_price': 9.0, 'sell_qty': 1, 'trace_id': '89382c33-c65d-4fbb-845d-b53347300a66'} event
+RECEIVER :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23 18:14:21', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'toy', 'item_price': 9.0, 'sell_qty': 1, 'trace_id': '89382c33-c65d-4fbb-845d-b53347300a66'}}
+RECEIVER :: DEBUG – Received buy event with trace id 33e6904a-7de8-4236-a549-712076fcee94
+RECEIVER :: DEBUG – PRODUCER::producing {'buy_id': 'u290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Manga', 'item_price': 12.99, 'buy_qty': 1, 'trace_id': '33e6904a-7de8-4236-a549-712076fcee94'} event
+RECEIVER :: DEBUG – {'type': 'buy', 'datetime': '2023-02-23 18:15:29', 'payload': {'buy_id': 'u290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Manga', 'item_price': 12.99, 'buy_qty': 1, 'trace_id': '33e6904a-7de8-4236-a549-712076fcee94'}}
+RECEIVER :: DEBUG – Received sell event with trace id 492084cc-3086-41bd-aec1-ad00c10c0078
+RECEIVER :: DEBUG – PRODUCER::producing {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Lamp', 'item_price': 20.0, 'sell_qty': 1, 'trace_id': '492084cc-3086-41bd-aec1-ad00c10c0078'} event
+RECEIVER :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23 18:41:14', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Lamp', 'item_price': 20.0, 'sell_qty': 1, 'trace_id': '492084cc-3086-41bd-aec1-ad00c10c0078'}}

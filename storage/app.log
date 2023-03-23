@@ -1,0 +1,19 @@
+STORAGE :: DEBUG – Stored buy event with trace id b8d2db0f-9f8f-49af-adb8-bd36f898eae6
+STORAGE :: DEBUG – Stored buy event with trace id d290f1ee-6c54-4b01-90e6-d701748f0851
+STORAGE :: DEBUG – Stored buy event with trace id d290f1ee-6c54-4b01-90e6-d701748f0851
+STORAGE :: DEBUG – Stored buy event with trace id d290f1ee-6c54-4b01-90e6-d701748f0851
+STORAGE :: DEBUG – CONSUMER::storing buy event
+STORAGE :: DEBUG – CONSUMER::storing buy event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23 18:05:57', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'toy', 'item_price': 9.0, 'sell_qty': 1, 'trace_id': 'c8350dbf-4132-48f1-b6c4-74505edd2428'}}
+STORAGE :: DEBUG – CONSUMER::storing buy event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23 18:05:57', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'toy', 'item_price': 9.0, 'sell_qty': 1, 'trace_id': 'c8350dbf-4132-48f1-b6c4-74505edd2428'}}
+STORAGE :: DEBUG – CONSUMER::storing buy event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23 18:14:21', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'toy', 'item_price': 9.0, 'sell_qty': 1, 'trace_id': '89382c33-c65d-4fbb-845d-b53347300a66'}}
+STORAGE :: DEBUG – CONSUMER::storing buy event
+STORAGE :: DEBUG – {'type': 'buy', 'datetime': '2023-02-23 18:15:29', 'payload': {'buy_id': 'u290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Manga', 'item_price': 12.99, 'buy_qty': 1, 'trace_id': '33e6904a-7de8-4236-a549-712076fcee94'}}
+STORAGE :: DEBUG – CONSUMER::storing buy event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23 18:14:21', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'toy', 'item_price': 9.0, 'sell_qty': 1, 'trace_id': '89382c33-c65d-4fbb-845d-b53347300a66'}}
+STORAGE :: DEBUG – CONSUMER::storing buy event
+STORAGE :: DEBUG – {'type': 'buy', 'datetime': '2023-02-23 18:15:29', 'payload': {'buy_id': 'u290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Manga', 'item_price': 12.99, 'buy_qty': 1, 'trace_id': '33e6904a-7de8-4236-a549-712076fcee94'}}
+STORAGE :: DEBUG – CONSUMER::storing buy event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23 18:41:14', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Lamp', 'item_price': 20.0, 'sell_qty': 1, 'trace_id': '492084cc-3086-41bd-aec1-ad00c10c0078'}}
