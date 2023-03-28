@@ -30,8 +30,8 @@ services:
     volumes:
       - data:/var/lib/mysql
 
-  reciever:
-    image: reciever
+  receiver:
+    image: receiver
     ports:
       - 8080:8080
     depends_on:
