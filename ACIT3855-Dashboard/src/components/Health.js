@@ -17,9 +17,9 @@ const Status = () => {
             <h2>Statuses</h2>
             <button onClick={fetchStatuses}>Check Status</button>
             <ul>
-                <li>Receiver: {events.receiver}</li>
-                <li>Storage: {events.storage}</li>
-                <li>Processing: {events.processing}</li>
+                <p>Receiver: {events.receiver}</p>
+                <p>Storage: {events.storage}</p>
+                <p>Processing: {events.processing}</p>
             </ul>
         </div>
     );
