@@ -19,7 +19,7 @@ urls = {
 
 def check():
     # TODO - use try except block(s) to send a GET request to each of your services /health endpoints (receiver, storage, and processing)
-    for service_name, service_url in urls.items:
+    for service_name, service_url in urls.items():
         try:
             response = requests.get(service_url)
             if response.status_code == 200:
