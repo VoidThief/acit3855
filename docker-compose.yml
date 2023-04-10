@@ -42,7 +42,7 @@ services:
     ports:
       - 8090:8090
     depends_on:
-      - reciever
+      - receiver
 
   processing:
     image: processing:latest
