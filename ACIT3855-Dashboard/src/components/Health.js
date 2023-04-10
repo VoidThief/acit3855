@@ -4,7 +4,7 @@ const Status = () => {
     const [events, setEvents] = useState({});
 
     const fetchStatuses = () => {
-        fetch('http://52.39.252.17/health')
+        fetch('http://54.149.238.93/check')
             .then(response => response.json())
             .then(data => {
                 setEvents(data);
