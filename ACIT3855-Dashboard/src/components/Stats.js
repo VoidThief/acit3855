@@ -4,11 +4,11 @@ const Stats = () => {
     const [event, setEvent] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:8100/stats')
-        .then(res => res.json())
-        .then(res => { 
-            setEvent(res) 
-        })
+        fetch('http://54.149.238.93/processing/stats')
+            .then(res => res.json())
+            .then(res => {
+                setEvent(res)
+            })
     }, [])
 
     return (
@@ -22,7 +22,7 @@ const Stats = () => {
                 <p>Last Updated: ${event.last_updated}</p>
             </div>
         </div>
-    )   
+    )
 }
 
 export default Stats
