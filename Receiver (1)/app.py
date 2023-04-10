@@ -10,6 +10,9 @@ import requests
 import uuid
 import yaml 
 
+def health():
+    return 200
+
 def process_event(event, endpoint):
     trace_id = str(uuid.uuid4())
     event['trace_id'] = trace_id
